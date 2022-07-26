@@ -27,6 +27,6 @@ public class Solution {
             builder.append(entry.getKey() + ":" + entry.getValue()+ " ");
         }
 
-        return builder.toString();
+        return builder.toString().trim();
     }
 }
